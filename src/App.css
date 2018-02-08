@@ -1,0 +1,163 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+  body {
+  background-image: url('img.jpg');
+  background-color: #cccccc;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 55px;
+}
+/* #search-box {
+
+} */
+#h3-tag-1 {
+  font-size: 35px;
+}
+#hr-tag-1 {
+  margin-right: 50%;
+}
+
+#hr-tag-2 {
+  margin-right: 50%;
+}
+
+#hr-tag-3 {
+  margin-right: 50%;
+}
+
+#hr-tag-4 {
+  margin-right: 50%
+}
+
+#hr-tag-5 {
+  margin-right: 50%;
+}
+
+#hr-tag-6 {
+  margin-right: 50%;
+}
+
+
+#text-animation {
+    
+    font-family: futura;
+    font-style: italic;
+    animation: colorchange 20s infinite 
+    alternate;
+
+  } 
+
+  @keyframes colorchange {
+    0% {
+      
+      color: rgb(210,180,140)
+    }
+    
+    10% {
+      
+      color: #a80000;
+    }
+    
+    20% {
+      
+      color: #ff0000;
+    }
+    
+    30% {
+      
+      color: #007fd3;
+    }
+    
+    40% {
+      
+      color: rgb(0, 195, 255);
+    }
+    
+    50% {
+      
+      color: #00ad96;
+    }
+    
+    60% {
+      
+      color: rgb(0, 255, 170);
+    }
+    
+    70% {
+      
+      color: #0ebbbb;
+    }
+    80% {
+   
+      color: rgb(210,180,140);
+    }
+    
+    90% {
+   
+      color: #bb8000;
+    }
+    
+    100% {
+      
+      color: rgb(238, 225, 208);
+    }
+  }
+
+  #hr-tag {
+    margin-right: 50%;
+  };
+
+  #text-border {
+    border: 100px solid #0ebbbb;
+  }
+
+  #background-color-1{
+    background: red;
+    animation: mymove 20s infinite;
+  }
+
+  @-webkit-keyframes mymove {
+    0%   {background: rgb(210,180,140)}
+    25%  {background: #a80000;}
+    50%  {background: #ff0000;}
+    75%  {background: #007fd3;}
+    100% {background: rgb(0, 195, 255);}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {background: #00ad96;}
+    25%  {background: #0ebbbb;}
+    50%  {background: #bb8000;}
+    75%  {background: green;}
+    100% {background: rgb(238, 225, 208);}
+}
